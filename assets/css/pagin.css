@@ -1,0 +1,52 @@
+.paging {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  margin: 30px 0;
+}
+
+.paging .box {
+  display: flex;
+  grid-gap: 10px;
+  margin: 0 10px;
+}
+
+.retreat,
+.forward,
+.box-item {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #142037;
+  font-weight: 700;
+}
+
+.retreat,
+.forward,
+.active {
+  background-color: #2968a5;
+}
+
+@media (max-width: 1100px) {
+  header p {
+    width: 50%;
+  }
+}
+
+@media (max-width: 780px) {
+  header p {
+    width: 70%;
+  }
+}
+
+@media (max-width: 380px) {
+  header p {
+    width: 90%;
+  }
+}

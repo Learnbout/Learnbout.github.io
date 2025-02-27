@@ -1,0 +1,11 @@
+.global-item .text {
+  left: -5%;
+}
+
+.global-item .text .title {
+  font-size: 18px;
+}
+
+.global-item .text .title span {
+  font-weight: 400;
+}
